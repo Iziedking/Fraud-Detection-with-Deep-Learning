@@ -11,7 +11,7 @@ E-commerce fraud detection is challenging due to severe class imbalance (typical
 | Model | F1 | Precision | Recall | AUC |
 |-------|-----|-----------|--------|-----|
 | Baseline Dense | 0.6338 | 0.7674 | 0.5399 | 0.9138 |
-| LSTM+Dense Hybrid | 0.6435 | 0.7433 | 0.5673 | 0.9203 |
+| LSTM and Dense Hybrid | 0.6435 | 0.7433 | 0.5673 | 0.9203 |
 | Sequence LSTM | 0.2839 | 0.3381 | 0.2447 | 0.7811 |
 | GNN | 0.1541 | 0.0867 | 0.6909 | 0.7770 |
 | Fusion (Reduced Features) | 0.6556 | 0.6946 | 0.6208 | 0.9356 |
