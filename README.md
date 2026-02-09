@@ -46,32 +46,6 @@ Behavioral (353 features) -> Dense (256 -> 128) -> 128-dim
                               Fraud Probability
 ```
 
-## Project Structure
-```
-fraud_detection_DL/
-├── data_exploration/
-│   ├── prepare_full_features.py
-│   ├── build_sequences.py
-│   └── apply_smote_sequences.py
-├── scripts_preprocessing/
-├── scripts_modeling/              # Baseline dense model
-├── scripts_hybrid/                # LSTM+Dense hybrid
-├── scripts_sequence/
-│   ├── script_lstm/              # Sequence LSTM (failed approach)
-│   ├── script_gnn/               # GNN (failed approach)
-│   ├── script_hybrid/            # Fusion with reduced features
-│   ├── script_full_hybrid/       # Fusion with full features
-│   ├── compare_models.py
-│   └── compare_models_full.py
-├── models/                        # Saved weights (not in repo)
-├── results_sequence/              # Visualizations
-├── logs/
-├── data_files/                    # Data directory (not in repo)
-├── requirements.txt
-├── DOCUMENTATION.md
-└── README.md
-```
-
 ## Setup
 
 ### Requirements
