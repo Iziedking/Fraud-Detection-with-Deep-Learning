@@ -1,0 +1,738 @@
+2026-01-12 09:31:09 | INFO | Starting hybrid LSTM+Dense model training
+2026-01-12 09:31:09 | INFO | Device: cpu
+2026-01-12 09:31:13 | INFO | Temporal features: 30
+2026-01-12 09:31:13 | INFO | Behavioral features: 184
+2026-01-12 09:31:13 | INFO | Model parameters: 370,113
+2026-01-12 09:31:17 | INFO | Epoch 1 | Batch 0/1169 | Loss: 0.0944
+2026-01-12 09:31:22 | INFO | Epoch 1 | Batch 100/1169 | Loss: 0.0506
+2026-01-12 09:31:26 | INFO | Epoch 1 | Batch 200/1169 | Loss: 0.0492
+2026-01-12 09:31:32 | INFO | Epoch 1 | Batch 300/1169 | Loss: 0.0481
+2026-01-12 09:31:37 | INFO | Epoch 1 | Batch 400/1169 | Loss: 0.0441
+2026-01-12 09:31:49 | INFO | Epoch 1 | Batch 500/1169 | Loss: 0.0510
+2026-01-12 09:32:08 | INFO | Epoch 1 | Batch 600/1169 | Loss: 0.0425
+2026-01-12 09:32:29 | INFO | Epoch 1 | Batch 700/1169 | Loss: 0.0467
+2026-01-12 09:32:50 | INFO | Epoch 1 | Batch 800/1169 | Loss: 0.0442
+2026-01-12 09:33:12 | INFO | Epoch 1 | Batch 900/1169 | Loss: 0.0448
+2026-01-12 09:33:30 | INFO | Epoch 1 | Batch 1000/1169 | Loss: 0.0439
+2026-01-12 09:33:46 | INFO | Epoch 1 | Batch 1100/1169 | Loss: 0.0386
+2026-01-12 09:34:07 | INFO | Epoch 1 | Train Loss: 0.0459 | Val Loss: 0.0357
+2026-01-12 09:34:07 | INFO | Val F1: 0.1728 | Prec: 0.0962 | Rec: 0.8477 | AUC: 0.8806
+2026-01-12 09:34:07 | INFO | New best model saved (F1: 0.1728)
+2026-01-12 09:34:07 | INFO | Epoch 2 | Batch 0/1169 | Loss: 0.0370
+2026-01-12 09:34:23 | INFO | Epoch 2 | Batch 100/1169 | Loss: 0.0419
+2026-01-12 09:34:40 | INFO | Epoch 2 | Batch 200/1169 | Loss: 0.0407
+2026-01-12 09:34:56 | INFO | Epoch 2 | Batch 300/1169 | Loss: 0.0360
+2026-01-12 09:35:13 | INFO | Epoch 2 | Batch 400/1169 | Loss: 0.0369
+2026-01-12 09:35:29 | INFO | Epoch 2 | Batch 500/1169 | Loss: 0.0376
+2026-01-12 09:35:47 | INFO | Epoch 2 | Batch 600/1169 | Loss: 0.0384
+2026-01-12 09:36:04 | INFO | Epoch 2 | Batch 700/1169 | Loss: 0.0392
+2026-01-12 09:36:21 | INFO | Epoch 2 | Batch 800/1169 | Loss: 0.0398
+2026-01-12 09:36:38 | INFO | Epoch 2 | Batch 900/1169 | Loss: 0.0357
+2026-01-12 09:36:57 | INFO | Epoch 2 | Batch 1000/1169 | Loss: 0.0369
+2026-01-12 09:37:14 | INFO | Epoch 2 | Batch 1100/1169 | Loss: 0.0394
+2026-01-12 09:37:22 | INFO | Epoch 2 | Train Loss: 0.0391 | Val Loss: 0.0293
+2026-01-12 09:37:22 | INFO | Val F1: 0.2355 | Prec: 0.1381 | Rec: 0.7997 | AUC: 0.8904
+2026-01-12 09:37:22 | INFO | New best model saved (F1: 0.2355)
+2026-01-12 09:37:22 | INFO | Epoch 3 | Batch 0/1169 | Loss: 0.0369
+2026-01-12 09:37:28 | INFO | Epoch 3 | Batch 100/1169 | Loss: 0.0339
+2026-01-12 09:37:44 | INFO | Epoch 3 | Batch 200/1169 | Loss: 0.0372
+2026-01-12 09:38:01 | INFO | Epoch 3 | Batch 300/1169 | Loss: 0.0324
+2026-01-12 09:38:16 | INFO | Epoch 3 | Batch 400/1169 | Loss: 0.0347
+2026-01-12 09:38:32 | INFO | Epoch 3 | Batch 500/1169 | Loss: 0.0372
+2026-01-12 09:38:48 | INFO | Epoch 3 | Batch 600/1169 | Loss: 0.0352
+2026-01-12 09:39:04 | INFO | Epoch 3 | Batch 700/1169 | Loss: 0.0373
+2026-01-12 09:39:21 | INFO | Epoch 3 | Batch 800/1169 | Loss: 0.0382
+2026-01-12 09:39:38 | INFO | Epoch 3 | Batch 900/1169 | Loss: 0.0376
+2026-01-12 09:39:59 | INFO | Epoch 3 | Batch 1000/1169 | Loss: 0.0336
+2026-01-12 09:40:20 | INFO | Epoch 3 | Batch 1100/1169 | Loss: 0.0321
+2026-01-12 09:40:44 | INFO | Epoch 3 | Train Loss: 0.0360 | Val Loss: 0.0308
+2026-01-12 09:40:44 | INFO | Val F1: 0.2291 | Prec: 0.1334 | Rec: 0.8113 | AUC: 0.8934
+2026-01-12 09:40:44 | INFO | Epoch 4 | Batch 0/1169 | Loss: 0.0347
+2026-01-12 09:41:03 | INFO | Epoch 4 | Batch 100/1169 | Loss: 0.0335
+2026-01-12 09:41:21 | INFO | Epoch 4 | Batch 200/1169 | Loss: 0.0346
+2026-01-12 09:41:39 | INFO | Epoch 4 | Batch 300/1169 | Loss: 0.0385
+2026-01-12 09:41:55 | INFO | Epoch 4 | Batch 400/1169 | Loss: 0.0341
+2026-01-12 09:42:13 | INFO | Epoch 4 | Batch 500/1169 | Loss: 0.0359
+2026-01-12 09:42:30 | INFO | Epoch 4 | Batch 600/1169 | Loss: 0.0357
+2026-01-12 09:42:49 | INFO | Epoch 4 | Batch 700/1169 | Loss: 0.0324
+2026-01-12 09:43:07 | INFO | Epoch 4 | Batch 800/1169 | Loss: 0.0330
+2026-01-12 09:43:13 | INFO | Epoch 4 | Batch 900/1169 | Loss: 0.0326
+2026-01-12 09:43:19 | INFO | Epoch 4 | Batch 1000/1169 | Loss: 0.0322
+2026-01-12 09:43:24 | INFO | Epoch 4 | Batch 1100/1169 | Loss: 0.0346
+2026-01-12 09:43:50 | INFO | Epoch 4 | Train Loss: 0.0338 | Val Loss: 0.0311
+2026-01-12 09:43:50 | INFO | Val F1: 0.2089 | Prec: 0.1192 | Rec: 0.8423 | AUC: 0.8987
+2026-01-12 09:43:51 | INFO | Epoch 5 | Batch 0/1169 | Loss: 0.0307
+2026-01-12 09:44:12 | INFO | Epoch 5 | Batch 100/1169 | Loss: 0.0319
+2026-01-12 09:44:29 | INFO | Epoch 5 | Batch 200/1169 | Loss: 0.0367
+2026-01-12 09:44:47 | INFO | Epoch 5 | Batch 300/1169 | Loss: 0.0301
+2026-01-12 09:45:04 | INFO | Epoch 5 | Batch 400/1169 | Loss: 0.0291
+2026-01-12 09:45:21 | INFO | Epoch 5 | Batch 500/1169 | Loss: 0.0330
+2026-01-12 09:45:38 | INFO | Epoch 5 | Batch 600/1169 | Loss: 0.0332
+2026-01-12 09:45:54 | INFO | Epoch 5 | Batch 700/1169 | Loss: 0.0341
+2026-01-12 09:46:09 | INFO | Epoch 5 | Batch 800/1169 | Loss: 0.0383
+2026-01-12 09:46:25 | INFO | Epoch 5 | Batch 900/1169 | Loss: 0.0303
+2026-01-12 09:46:41 | INFO | Epoch 5 | Batch 1000/1169 | Loss: 0.0308
+2026-01-12 09:46:58 | INFO | Epoch 5 | Batch 1100/1169 | Loss: 0.0260
+2026-01-12 09:47:20 | INFO | Epoch 5 | Train Loss: 0.0323 | Val Loss: 0.0230
+2026-01-12 09:47:20 | INFO | Val F1: 0.3055 | Prec: 0.1905 | Rec: 0.7710 | AUC: 0.8996
+2026-01-12 09:47:20 | INFO | New best model saved (F1: 0.3055)
+2026-01-12 09:47:20 | INFO | Epoch 6 | Batch 0/1169 | Loss: 0.0335
+2026-01-12 09:47:38 | INFO | Epoch 6 | Batch 100/1169 | Loss: 0.0281
+2026-01-12 09:47:55 | INFO | Epoch 6 | Batch 200/1169 | Loss: 0.0298
+2026-01-12 09:48:13 | INFO | Epoch 6 | Batch 300/1169 | Loss: 0.0325
+2026-01-12 09:48:31 | INFO | Epoch 6 | Batch 400/1169 | Loss: 0.0333
+2026-01-12 09:48:49 | INFO | Epoch 6 | Batch 500/1169 | Loss: 0.0295
+2026-01-12 09:49:05 | INFO | Epoch 6 | Batch 600/1169 | Loss: 0.0318
+2026-01-12 09:49:23 | INFO | Epoch 6 | Batch 700/1169 | Loss: 0.0279
+2026-01-12 09:49:39 | INFO | Epoch 6 | Batch 800/1169 | Loss: 0.0283
+2026-01-12 09:49:55 | INFO | Epoch 6 | Batch 900/1169 | Loss: 0.0308
+2026-01-12 09:50:08 | INFO | Epoch 6 | Batch 1000/1169 | Loss: 0.0328
+2026-01-12 09:50:24 | INFO | Epoch 6 | Batch 1100/1169 | Loss: 0.0295
+2026-01-12 09:50:46 | INFO | Epoch 6 | Train Loss: 0.0311 | Val Loss: 0.0213
+2026-01-12 09:50:46 | INFO | Val F1: 0.3247 | Prec: 0.2073 | Rec: 0.7484 | AUC: 0.9018
+2026-01-12 09:50:46 | INFO | New best model saved (F1: 0.3247)
+2026-01-12 09:50:46 | INFO | Epoch 7 | Batch 0/1169 | Loss: 0.0359
+2026-01-12 09:51:15 | INFO | Epoch 7 | Batch 100/1169 | Loss: 0.0298
+2026-01-12 09:51:33 | INFO | Epoch 7 | Batch 200/1169 | Loss: 0.0351
+2026-01-12 09:51:56 | INFO | Epoch 7 | Batch 300/1169 | Loss: 0.0282
+2026-01-12 09:52:16 | INFO | Epoch 7 | Batch 400/1169 | Loss: 0.0318
+2026-01-12 09:52:36 | INFO | Epoch 7 | Batch 500/1169 | Loss: 0.0291
+2026-01-12 09:52:55 | INFO | Epoch 7 | Batch 600/1169 | Loss: 0.0359
+2026-01-12 09:53:15 | INFO | Epoch 7 | Batch 700/1169 | Loss: 0.0336
+2026-01-12 09:53:35 | INFO | Epoch 7 | Batch 800/1169 | Loss: 0.0326
+2026-01-12 09:53:51 | INFO | Epoch 7 | Batch 900/1169 | Loss: 0.0285
+2026-01-12 09:54:08 | INFO | Epoch 7 | Batch 1000/1169 | Loss: 0.0332
+2026-01-12 09:54:24 | INFO | Epoch 7 | Batch 1100/1169 | Loss: 0.0277
+2026-01-12 09:54:48 | INFO | Epoch 7 | Train Loss: 0.0302 | Val Loss: 0.0267
+2026-01-12 09:54:48 | INFO | Val F1: 0.2337 | Prec: 0.1361 | Rec: 0.8265 | AUC: 0.9008
+2026-01-12 09:54:49 | INFO | Epoch 8 | Batch 0/1169 | Loss: 0.0317
+2026-01-12 09:55:06 | INFO | Epoch 8 | Batch 100/1169 | Loss: 0.0252
+2026-01-12 09:55:23 | INFO | Epoch 8 | Batch 200/1169 | Loss: 0.0346
+2026-01-12 09:55:42 | INFO | Epoch 8 | Batch 300/1169 | Loss: 0.0274
+2026-01-12 09:56:04 | INFO | Epoch 8 | Batch 400/1169 | Loss: 0.0305
+2026-01-12 09:56:22 | INFO | Epoch 8 | Batch 500/1169 | Loss: 0.0284
+2026-01-12 09:56:41 | INFO | Epoch 8 | Batch 600/1169 | Loss: 0.0312
+2026-01-12 09:56:59 | INFO | Epoch 8 | Batch 700/1169 | Loss: 0.0276
+2026-01-12 09:57:18 | INFO | Epoch 8 | Batch 800/1169 | Loss: 0.0276
+2026-01-12 09:57:37 | INFO | Epoch 8 | Batch 900/1169 | Loss: 0.0281
+2026-01-12 09:57:55 | INFO | Epoch 8 | Batch 1000/1169 | Loss: 0.0273
+2026-01-12 09:58:11 | INFO | Epoch 8 | Batch 1100/1169 | Loss: 0.0315
+2026-01-12 09:58:33 | INFO | Epoch 8 | Train Loss: 0.0293 | Val Loss: 0.0251
+2026-01-12 09:58:33 | INFO | Val F1: 0.2680 | Prec: 0.1608 | Rec: 0.8039 | AUC: 0.9040
+2026-01-12 09:58:33 | INFO | Epoch 9 | Batch 0/1169 | Loss: 0.0286
+2026-01-12 09:58:52 | INFO | Epoch 9 | Batch 100/1169 | Loss: 0.0254
+2026-01-12 09:59:08 | INFO | Epoch 9 | Batch 200/1169 | Loss: 0.0304
+2026-01-12 09:59:25 | INFO | Epoch 9 | Batch 300/1169 | Loss: 0.0270
+2026-01-12 09:59:43 | INFO | Epoch 9 | Batch 400/1169 | Loss: 0.0272
+2026-01-12 10:00:03 | INFO | Epoch 9 | Batch 500/1169 | Loss: 0.0275
+2026-01-12 10:00:22 | INFO | Epoch 9 | Batch 600/1169 | Loss: 0.0268
+2026-01-12 10:00:43 | INFO | Epoch 9 | Batch 700/1169 | Loss: 0.0285
+2026-01-12 10:01:01 | INFO | Epoch 9 | Batch 800/1169 | Loss: 0.0276
+2026-01-12 10:01:17 | INFO | Epoch 9 | Batch 900/1169 | Loss: 0.0248
+2026-01-12 10:01:35 | INFO | Epoch 9 | Batch 1000/1169 | Loss: 0.0248
+2026-01-12 10:01:51 | INFO | Epoch 9 | Batch 1100/1169 | Loss: 0.0263
+2026-01-12 10:02:12 | INFO | Epoch 9 | Train Loss: 0.0286 | Val Loss: 0.0212
+2026-01-12 10:02:12 | INFO | Val F1: 0.3170 | Prec: 0.1989 | Rec: 0.7794 | AUC: 0.9039
+2026-01-12 10:02:13 | INFO | Epoch 10 | Batch 0/1169 | Loss: 0.0285
+2026-01-12 10:02:29 | INFO | Epoch 10 | Batch 100/1169 | Loss: 0.0338
+2026-01-12 10:02:45 | INFO | Epoch 10 | Batch 200/1169 | Loss: 0.0312
+2026-01-12 10:03:01 | INFO | Epoch 10 | Batch 300/1169 | Loss: 0.0245
+2026-01-12 10:03:19 | INFO | Epoch 10 | Batch 400/1169 | Loss: 0.0289
+2026-01-12 10:03:37 | INFO | Epoch 10 | Batch 500/1169 | Loss: 0.0261
+2026-01-12 10:03:56 | INFO | Epoch 10 | Batch 600/1169 | Loss: 0.0335
+2026-01-12 10:04:14 | INFO | Epoch 10 | Batch 700/1169 | Loss: 0.0272
+2026-01-12 10:04:35 | INFO | Epoch 10 | Batch 800/1169 | Loss: 0.0275
+2026-01-12 10:04:55 | INFO | Epoch 10 | Batch 900/1169 | Loss: 0.0289
+2026-01-12 10:05:14 | INFO | Epoch 10 | Batch 1000/1169 | Loss: 0.0298
+2026-01-12 10:05:34 | INFO | Epoch 10 | Batch 1100/1169 | Loss: 0.0368
+2026-01-12 10:05:59 | INFO | Epoch 10 | Train Loss: 0.0279 | Val Loss: 0.0199
+2026-01-12 10:05:59 | INFO | Val F1: 0.3536 | Prec: 0.2308 | Rec: 0.7558 | AUC: 0.9062
+2026-01-12 10:05:59 | INFO | New best model saved (F1: 0.3536)
+2026-01-12 10:05:59 | INFO | Epoch 11 | Batch 0/1169 | Loss: 0.0248
+2026-01-12 10:06:15 | INFO | Epoch 11 | Batch 100/1169 | Loss: 0.0265
+2026-01-12 10:06:32 | INFO | Epoch 11 | Batch 200/1169 | Loss: 0.0248
+2026-01-12 10:06:50 | INFO | Epoch 11 | Batch 300/1169 | Loss: 0.0217
+2026-01-12 10:07:07 | INFO | Epoch 11 | Batch 400/1169 | Loss: 0.0252
+2026-01-12 10:07:24 | INFO | Epoch 11 | Batch 500/1169 | Loss: 0.0322
+2026-01-12 10:07:40 | INFO | Epoch 11 | Batch 600/1169 | Loss: 0.0296
+2026-01-12 10:07:58 | INFO | Epoch 11 | Batch 700/1169 | Loss: 0.0333
+2026-01-12 10:08:16 | INFO | Epoch 11 | Batch 800/1169 | Loss: 0.0224
+2026-01-12 10:08:33 | INFO | Epoch 11 | Batch 900/1169 | Loss: 0.0270
+2026-01-12 10:08:51 | INFO | Epoch 11 | Batch 1000/1169 | Loss: 0.0293
+2026-01-12 10:09:10 | INFO | Epoch 11 | Batch 1100/1169 | Loss: 0.0310
+2026-01-12 10:09:35 | INFO | Epoch 11 | Train Loss: 0.0273 | Val Loss: 0.0193
+2026-01-12 10:09:35 | INFO | Val F1: 0.3676 | Prec: 0.2425 | Rec: 0.7594 | AUC: 0.9097
+2026-01-12 10:09:35 | INFO | New best model saved (F1: 0.3676)
+2026-01-12 10:09:35 | INFO | Epoch 12 | Batch 0/1169 | Loss: 0.0267
+2026-01-12 10:09:51 | INFO | Epoch 12 | Batch 100/1169 | Loss: 0.0268
+2026-01-12 10:10:07 | INFO | Epoch 12 | Batch 200/1169 | Loss: 0.0240
+2026-01-12 10:10:22 | INFO | Epoch 12 | Batch 300/1169 | Loss: 0.0236
+2026-01-12 10:10:38 | INFO | Epoch 12 | Batch 400/1169 | Loss: 0.0267
+2026-01-12 10:10:55 | INFO | Epoch 12 | Batch 500/1169 | Loss: 0.0279
+2026-01-12 10:11:13 | INFO | Epoch 12 | Batch 600/1169 | Loss: 0.0244
+2026-01-12 10:11:32 | INFO | Epoch 12 | Batch 700/1169 | Loss: 0.0297
+2026-01-12 10:11:51 | INFO | Epoch 12 | Batch 800/1169 | Loss: 0.0262
+2026-01-12 10:12:10 | INFO | Epoch 12 | Batch 900/1169 | Loss: 0.0273
+2026-01-12 10:12:27 | INFO | Epoch 12 | Batch 1000/1169 | Loss: 0.0279
+2026-01-12 10:12:44 | INFO | Epoch 12 | Batch 1100/1169 | Loss: 0.0263
+2026-01-12 10:13:06 | INFO | Epoch 12 | Train Loss: 0.0267 | Val Loss: 0.0262
+2026-01-12 10:13:06 | INFO | Val F1: 0.2476 | Prec: 0.1457 | Rec: 0.8223 | AUC: 0.9040
+2026-01-12 10:13:07 | INFO | Epoch 13 | Batch 0/1169 | Loss: 0.0238
+2026-01-12 10:13:24 | INFO | Epoch 13 | Batch 100/1169 | Loss: 0.0242
+2026-01-12 10:13:39 | INFO | Epoch 13 | Batch 200/1169 | Loss: 0.0241
+2026-01-12 10:13:55 | INFO | Epoch 13 | Batch 300/1169 | Loss: 0.0243
+2026-01-12 10:14:11 | INFO | Epoch 13 | Batch 400/1169 | Loss: 0.0250
+2026-01-12 10:14:27 | INFO | Epoch 13 | Batch 500/1169 | Loss: 0.0257
+2026-01-12 10:14:42 | INFO | Epoch 13 | Batch 600/1169 | Loss: 0.0235
+2026-01-12 10:14:56 | INFO | Epoch 13 | Batch 700/1169 | Loss: 0.0266
+2026-01-12 10:15:01 | INFO | Epoch 13 | Batch 800/1169 | Loss: 0.0271
+2026-01-12 10:15:06 | INFO | Epoch 13 | Batch 900/1169 | Loss: 0.0244
+2026-01-12 10:15:11 | INFO | Epoch 13 | Batch 1000/1169 | Loss: 0.0283
+2026-01-12 10:15:16 | INFO | Epoch 13 | Batch 1100/1169 | Loss: 0.0242
+2026-01-12 10:15:23 | INFO | Epoch 13 | Train Loss: 0.0263 | Val Loss: 0.0206
+2026-01-12 10:15:23 | INFO | Val F1: 0.3347 | Prec: 0.2131 | Rec: 0.7790 | AUC: 0.9106
+2026-01-12 10:15:23 | INFO | Epoch 14 | Batch 0/1169 | Loss: 0.0264
+2026-01-12 10:15:28 | INFO | Epoch 14 | Batch 100/1169 | Loss: 0.0241
+2026-01-12 10:15:33 | INFO | Epoch 14 | Batch 200/1169 | Loss: 0.0266
+2026-01-12 10:15:38 | INFO | Epoch 14 | Batch 300/1169 | Loss: 0.0262
+2026-01-12 10:15:44 | INFO | Epoch 14 | Batch 400/1169 | Loss: 0.0305
+2026-01-12 10:15:48 | INFO | Epoch 14 | Batch 500/1169 | Loss: 0.0287
+2026-01-12 10:15:53 | INFO | Epoch 14 | Batch 600/1169 | Loss: 0.0283
+2026-01-12 10:15:58 | INFO | Epoch 14 | Batch 700/1169 | Loss: 0.0258
+2026-01-12 10:16:03 | INFO | Epoch 14 | Batch 800/1169 | Loss: 0.0280
+2026-01-12 10:16:08 | INFO | Epoch 14 | Batch 900/1169 | Loss: 0.0268
+2026-01-12 10:16:13 | INFO | Epoch 14 | Batch 1000/1169 | Loss: 0.0279
+2026-01-12 10:16:18 | INFO | Epoch 14 | Batch 1100/1169 | Loss: 0.0224
+2026-01-12 10:16:26 | INFO | Epoch 14 | Train Loss: 0.0259 | Val Loss: 0.0207
+2026-01-12 10:16:26 | INFO | Val F1: 0.3183 | Prec: 0.1994 | Rec: 0.7894 | AUC: 0.9083
+2026-01-12 10:16:26 | INFO | Epoch 15 | Batch 0/1169 | Loss: 0.0243
+2026-01-12 10:16:31 | INFO | Epoch 15 | Batch 100/1169 | Loss: 0.0263
+2026-01-12 10:16:36 | INFO | Epoch 15 | Batch 200/1169 | Loss: 0.0220
+2026-01-12 10:16:41 | INFO | Epoch 15 | Batch 300/1169 | Loss: 0.0258
+2026-01-12 10:16:46 | INFO | Epoch 15 | Batch 400/1169 | Loss: 0.0242
+2026-01-12 10:16:51 | INFO | Epoch 15 | Batch 500/1169 | Loss: 0.0232
+2026-01-12 10:16:56 | INFO | Epoch 15 | Batch 600/1169 | Loss: 0.0240
+2026-01-12 10:17:01 | INFO | Epoch 15 | Batch 700/1169 | Loss: 0.0271
+2026-01-12 10:17:06 | INFO | Epoch 15 | Batch 800/1169 | Loss: 0.0309
+2026-01-12 10:17:11 | INFO | Epoch 15 | Batch 900/1169 | Loss: 0.0302
+2026-01-12 10:17:16 | INFO | Epoch 15 | Batch 1000/1169 | Loss: 0.0293
+2026-01-12 10:17:21 | INFO | Epoch 15 | Batch 1100/1169 | Loss: 0.0232
+2026-01-12 10:17:29 | INFO | Epoch 15 | Train Loss: 0.0256 | Val Loss: 0.0228
+2026-01-12 10:17:29 | INFO | Val F1: 0.2768 | Prec: 0.1672 | Rec: 0.8042 | AUC: 0.9079
+2026-01-12 10:17:29 | INFO | Epoch 16 | Batch 0/1169 | Loss: 0.0232
+2026-01-12 10:17:34 | INFO | Epoch 16 | Batch 100/1169 | Loss: 0.0248
+2026-01-12 10:17:39 | INFO | Epoch 16 | Batch 200/1169 | Loss: 0.0267
+2026-01-12 10:17:43 | INFO | Epoch 16 | Batch 300/1169 | Loss: 0.0220
+2026-01-12 10:17:48 | INFO | Epoch 16 | Batch 400/1169 | Loss: 0.0247
+2026-01-12 10:17:53 | INFO | Epoch 16 | Batch 500/1169 | Loss: 0.0209
+2026-01-12 10:17:58 | INFO | Epoch 16 | Batch 600/1169 | Loss: 0.0263
+2026-01-12 10:18:03 | INFO | Epoch 16 | Batch 700/1169 | Loss: 0.0241
+2026-01-12 10:18:08 | INFO | Epoch 16 | Batch 800/1169 | Loss: 0.0239
+2026-01-12 10:18:12 | INFO | Epoch 16 | Batch 900/1169 | Loss: 0.0283
+2026-01-12 10:18:17 | INFO | Epoch 16 | Batch 1000/1169 | Loss: 0.0272
+2026-01-12 10:18:22 | INFO | Epoch 16 | Batch 1100/1169 | Loss: 0.0250
+2026-01-12 10:18:29 | INFO | Epoch 16 | Train Loss: 0.0251 | Val Loss: 0.0199
+2026-01-12 10:18:29 | INFO | Val F1: 0.3432 | Prec: 0.2215 | Rec: 0.7619 | AUC: 0.9050
+2026-01-12 10:18:30 | INFO | Epoch 17 | Batch 0/1169 | Loss: 0.0270
+2026-01-12 10:18:35 | INFO | Epoch 17 | Batch 100/1169 | Loss: 0.0207
+2026-01-12 10:18:39 | INFO | Epoch 17 | Batch 200/1169 | Loss: 0.0288
+2026-01-12 10:18:44 | INFO | Epoch 17 | Batch 300/1169 | Loss: 0.0264
+2026-01-12 10:18:49 | INFO | Epoch 17 | Batch 400/1169 | Loss: 0.0290
+2026-01-12 10:18:54 | INFO | Epoch 17 | Batch 500/1169 | Loss: 0.0257
+2026-01-12 10:18:59 | INFO | Epoch 17 | Batch 600/1169 | Loss: 0.0244
+2026-01-12 10:19:04 | INFO | Epoch 17 | Batch 700/1169 | Loss: 0.0284
+2026-01-12 10:19:11 | INFO | Epoch 17 | Batch 800/1169 | Loss: 0.0258
+2026-01-12 10:19:20 | INFO | Epoch 17 | Batch 900/1169 | Loss: 0.0268
+2026-01-12 10:19:28 | INFO | Epoch 17 | Batch 1000/1169 | Loss: 0.0248
+2026-01-12 10:19:37 | INFO | Epoch 17 | Batch 1100/1169 | Loss: 0.0250
+2026-01-12 10:19:50 | INFO | Epoch 17 | Train Loss: 0.0249 | Val Loss: 0.0186
+2026-01-12 10:19:50 | INFO | Val F1: 0.3785 | Prec: 0.2525 | Rec: 0.7558 | AUC: 0.9107
+2026-01-12 10:19:50 | INFO | New best model saved (F1: 0.3785)
+2026-01-12 10:19:50 | INFO | Epoch 18 | Batch 0/1169 | Loss: 0.0210
+2026-01-12 10:20:00 | INFO | Epoch 18 | Batch 100/1169 | Loss: 0.0240
+2026-01-12 10:20:10 | INFO | Epoch 18 | Batch 200/1169 | Loss: 0.0201
+2026-01-12 10:20:20 | INFO | Epoch 18 | Batch 300/1169 | Loss: 0.0249
+2026-01-12 10:20:29 | INFO | Epoch 18 | Batch 400/1169 | Loss: 0.0255
+2026-01-12 10:20:38 | INFO | Epoch 18 | Batch 500/1169 | Loss: 0.0286
+2026-01-12 10:20:48 | INFO | Epoch 18 | Batch 600/1169 | Loss: 0.0239
+2026-01-12 10:20:58 | INFO | Epoch 18 | Batch 700/1169 | Loss: 0.0231
+2026-01-12 10:21:07 | INFO | Epoch 18 | Batch 800/1169 | Loss: 0.0245
+2026-01-12 10:21:17 | INFO | Epoch 18 | Batch 900/1169 | Loss: 0.0248
+2026-01-12 10:21:26 | INFO | Epoch 18 | Batch 1000/1169 | Loss: 0.0232
+2026-01-12 10:21:35 | INFO | Epoch 18 | Batch 1100/1169 | Loss: 0.0265
+2026-01-12 10:21:48 | INFO | Epoch 18 | Train Loss: 0.0245 | Val Loss: 0.0196
+2026-01-12 10:21:48 | INFO | Val F1: 0.3434 | Prec: 0.2214 | Rec: 0.7655 | AUC: 0.9095
+2026-01-12 10:21:48 | INFO | Epoch 19 | Batch 0/1169 | Loss: 0.0195
+2026-01-12 10:21:57 | INFO | Epoch 19 | Batch 100/1169 | Loss: 0.0244
+2026-01-12 10:22:06 | INFO | Epoch 19 | Batch 200/1169 | Loss: 0.0244
+2026-01-12 10:22:15 | INFO | Epoch 19 | Batch 300/1169 | Loss: 0.0230
+2026-01-12 10:22:25 | INFO | Epoch 19 | Batch 400/1169 | Loss: 0.0283
+2026-01-12 10:22:34 | INFO | Epoch 19 | Batch 500/1169 | Loss: 0.0216
+2026-01-12 10:22:42 | INFO | Epoch 19 | Batch 600/1169 | Loss: 0.0228
+2026-01-12 10:22:51 | INFO | Epoch 19 | Batch 700/1169 | Loss: 0.0246
+2026-01-12 10:23:00 | INFO | Epoch 19 | Batch 800/1169 | Loss: 0.0223
+2026-01-12 10:23:09 | INFO | Epoch 19 | Batch 900/1169 | Loss: 0.0243
+2026-01-12 10:23:18 | INFO | Epoch 19 | Batch 1000/1169 | Loss: 0.0263
+2026-01-12 10:23:27 | INFO | Epoch 19 | Batch 1100/1169 | Loss: 0.0265
+2026-01-12 10:23:40 | INFO | Epoch 19 | Train Loss: 0.0243 | Val Loss: 0.0211
+2026-01-12 10:23:40 | INFO | Val F1: 0.3052 | Prec: 0.1894 | Rec: 0.7845 | AUC: 0.9067
+2026-01-12 10:23:40 | INFO | Epoch 20 | Batch 0/1169 | Loss: 0.0248
+2026-01-12 10:23:49 | INFO | Epoch 20 | Batch 100/1169 | Loss: 0.0207
+2026-01-12 10:23:58 | INFO | Epoch 20 | Batch 200/1169 | Loss: 0.0254
+2026-01-12 10:24:08 | INFO | Epoch 20 | Batch 300/1169 | Loss: 0.0354
+2026-01-12 10:24:17 | INFO | Epoch 20 | Batch 400/1169 | Loss: 0.0260
+2026-01-12 10:24:26 | INFO | Epoch 20 | Batch 500/1169 | Loss: 0.0222
+2026-01-12 10:24:36 | INFO | Epoch 20 | Batch 600/1169 | Loss: 0.0249
+2026-01-12 10:24:46 | INFO | Epoch 20 | Batch 700/1169 | Loss: 0.0249
+2026-01-12 10:24:55 | INFO | Epoch 20 | Batch 800/1169 | Loss: 0.0225
+2026-01-12 10:25:05 | INFO | Epoch 20 | Batch 900/1169 | Loss: 0.0225
+2026-01-12 10:25:14 | INFO | Epoch 20 | Batch 1000/1169 | Loss: 0.0234
+2026-01-12 10:25:23 | INFO | Epoch 20 | Batch 1100/1169 | Loss: 0.0302
+2026-01-12 10:25:37 | INFO | Epoch 20 | Train Loss: 0.0240 | Val Loss: 0.0193
+2026-01-12 10:25:37 | INFO | Val F1: 0.3735 | Prec: 0.2479 | Rec: 0.7565 | AUC: 0.9088
+2026-01-12 10:25:37 | INFO | Epoch 21 | Batch 0/1169 | Loss: 0.0244
+2026-01-12 10:25:46 | INFO | Epoch 21 | Batch 100/1169 | Loss: 0.0196
+2026-01-12 10:25:55 | INFO | Epoch 21 | Batch 200/1169 | Loss: 0.0256
+2026-01-12 10:26:04 | INFO | Epoch 21 | Batch 300/1169 | Loss: 0.0215
+2026-01-12 10:26:12 | INFO | Epoch 21 | Batch 400/1169 | Loss: 0.0252
+2026-01-12 10:26:21 | INFO | Epoch 21 | Batch 500/1169 | Loss: 0.0225
+2026-01-12 10:26:30 | INFO | Epoch 21 | Batch 600/1169 | Loss: 0.0220
+2026-01-12 10:26:39 | INFO | Epoch 21 | Batch 700/1169 | Loss: 0.0257
+2026-01-12 10:26:48 | INFO | Epoch 21 | Batch 800/1169 | Loss: 0.0254
+2026-01-12 10:26:56 | INFO | Epoch 21 | Batch 900/1169 | Loss: 0.0268
+2026-01-12 10:27:05 | INFO | Epoch 21 | Batch 1000/1169 | Loss: 0.0249
+2026-01-12 10:27:14 | INFO | Epoch 21 | Batch 1100/1169 | Loss: 0.0176
+2026-01-12 10:27:27 | INFO | Epoch 21 | Train Loss: 0.0237 | Val Loss: 0.0202
+2026-01-12 10:27:27 | INFO | Val F1: 0.3196 | Prec: 0.2006 | Rec: 0.7858 | AUC: 0.9094
+2026-01-12 10:27:28 | INFO | Epoch 22 | Batch 0/1169 | Loss: 0.0233
+2026-01-12 10:27:37 | INFO | Epoch 22 | Batch 100/1169 | Loss: 0.0253
+2026-01-12 10:27:47 | INFO | Epoch 22 | Batch 200/1169 | Loss: 0.0274
+2026-01-12 10:27:56 | INFO | Epoch 22 | Batch 300/1169 | Loss: 0.0231
+2026-01-12 10:28:05 | INFO | Epoch 22 | Batch 400/1169 | Loss: 0.0247
+2026-01-12 10:28:15 | INFO | Epoch 22 | Batch 500/1169 | Loss: 0.0269
+2026-01-12 10:28:25 | INFO | Epoch 22 | Batch 600/1169 | Loss: 0.0244
+2026-01-12 10:28:34 | INFO | Epoch 22 | Batch 700/1169 | Loss: 0.0241
+2026-01-12 10:28:44 | INFO | Epoch 22 | Batch 800/1169 | Loss: 0.0220
+2026-01-12 10:28:53 | INFO | Epoch 22 | Batch 900/1169 | Loss: 0.0221
+2026-01-12 10:29:02 | INFO | Epoch 22 | Batch 1000/1169 | Loss: 0.0220
+2026-01-12 10:29:12 | INFO | Epoch 22 | Batch 1100/1169 | Loss: 0.0198
+2026-01-12 10:29:25 | INFO | Epoch 22 | Train Loss: 0.0235 | Val Loss: 0.0195
+2026-01-12 10:29:25 | INFO | Val F1: 0.3516 | Prec: 0.2274 | Rec: 0.7742 | AUC: 0.9097
+2026-01-12 10:29:25 | INFO | Epoch 23 | Batch 0/1169 | Loss: 0.0196
+2026-01-12 10:29:34 | INFO | Epoch 23 | Batch 100/1169 | Loss: 0.0228
+2026-01-12 10:29:44 | INFO | Epoch 23 | Batch 200/1169 | Loss: 0.0278
+2026-01-12 10:29:53 | INFO | Epoch 23 | Batch 300/1169 | Loss: 0.0195
+2026-01-12 10:30:02 | INFO | Epoch 23 | Batch 400/1169 | Loss: 0.0186
+2026-01-12 10:30:11 | INFO | Epoch 23 | Batch 500/1169 | Loss: 0.0232
+2026-01-12 10:30:20 | INFO | Epoch 23 | Batch 600/1169 | Loss: 0.0217
+2026-01-12 10:30:29 | INFO | Epoch 23 | Batch 700/1169 | Loss: 0.0219
+2026-01-12 10:30:38 | INFO | Epoch 23 | Batch 800/1169 | Loss: 0.0226
+2026-01-12 10:30:47 | INFO | Epoch 23 | Batch 900/1169 | Loss: 0.0224
+2026-01-12 10:30:56 | INFO | Epoch 23 | Batch 1000/1169 | Loss: 0.0219
+2026-01-12 10:31:04 | INFO | Epoch 23 | Batch 1100/1169 | Loss: 0.0220
+2026-01-12 10:31:16 | INFO | Epoch 23 | Train Loss: 0.0232 | Val Loss: 0.0206
+2026-01-12 10:31:16 | INFO | Val F1: 0.3226 | Prec: 0.2031 | Rec: 0.7839 | AUC: 0.9087
+2026-01-12 10:31:17 | INFO | Epoch 24 | Batch 0/1169 | Loss: 0.0214
+2026-01-12 10:31:26 | INFO | Epoch 24 | Batch 100/1169 | Loss: 0.0229
+2026-01-12 10:31:35 | INFO | Epoch 24 | Batch 200/1169 | Loss: 0.0220
+2026-01-12 10:31:45 | INFO | Epoch 24 | Batch 300/1169 | Loss: 0.0193
+2026-01-12 10:31:54 | INFO | Epoch 24 | Batch 400/1169 | Loss: 0.0239
+2026-01-12 10:32:03 | INFO | Epoch 24 | Batch 500/1169 | Loss: 0.0227
+2026-01-12 10:32:13 | INFO | Epoch 24 | Batch 600/1169 | Loss: 0.0182
+2026-01-12 10:32:22 | INFO | Epoch 24 | Batch 700/1169 | Loss: 0.0182
+2026-01-12 10:32:32 | INFO | Epoch 24 | Batch 800/1169 | Loss: 0.0233
+2026-01-12 10:32:41 | INFO | Epoch 24 | Batch 900/1169 | Loss: 0.0213
+2026-01-12 10:32:51 | INFO | Epoch 24 | Batch 1000/1169 | Loss: 0.0191
+2026-01-12 10:33:00 | INFO | Epoch 24 | Batch 1100/1169 | Loss: 0.0229
+2026-01-12 10:33:13 | INFO | Epoch 24 | Train Loss: 0.0219 | Val Loss: 0.0184
+2026-01-12 10:33:13 | INFO | Val F1: 0.3893 | Prec: 0.2633 | Rec: 0.7465 | AUC: 0.9109
+2026-01-12 10:33:13 | INFO | New best model saved (F1: 0.3893)
+2026-01-12 10:33:13 | INFO | Epoch 25 | Batch 0/1169 | Loss: 0.0273
+2026-01-12 10:33:23 | INFO | Epoch 25 | Batch 100/1169 | Loss: 0.0222
+2026-01-12 10:33:32 | INFO | Epoch 25 | Batch 200/1169 | Loss: 0.0215
+2026-01-12 10:33:42 | INFO | Epoch 25 | Batch 300/1169 | Loss: 0.0184
+2026-01-12 10:33:51 | INFO | Epoch 25 | Batch 400/1169 | Loss: 0.0219
+2026-01-12 10:34:00 | INFO | Epoch 25 | Batch 500/1169 | Loss: 0.0165
+2026-01-12 10:34:09 | INFO | Epoch 25 | Batch 600/1169 | Loss: 0.0245
+2026-01-12 10:34:18 | INFO | Epoch 25 | Batch 700/1169 | Loss: 0.0201
+2026-01-12 10:34:27 | INFO | Epoch 25 | Batch 800/1169 | Loss: 0.0237
+2026-01-12 10:34:36 | INFO | Epoch 25 | Batch 900/1169 | Loss: 0.0178
+2026-01-12 10:34:45 | INFO | Epoch 25 | Batch 1000/1169 | Loss: 0.0180
+2026-01-12 10:34:54 | INFO | Epoch 25 | Batch 1100/1169 | Loss: 0.0208
+2026-01-12 10:35:07 | INFO | Epoch 25 | Train Loss: 0.0215 | Val Loss: 0.0193
+2026-01-12 10:35:07 | INFO | Val F1: 0.3700 | Prec: 0.2438 | Rec: 0.7668 | AUC: 0.9111
+2026-01-12 10:35:07 | INFO | Epoch 26 | Batch 0/1169 | Loss: 0.0213
+2026-01-12 10:35:16 | INFO | Epoch 26 | Batch 100/1169 | Loss: 0.0194
+2026-01-12 10:35:25 | INFO | Epoch 26 | Batch 200/1169 | Loss: 0.0198
+2026-01-12 10:35:33 | INFO | Epoch 26 | Batch 300/1169 | Loss: 0.0210
+2026-01-12 10:35:43 | INFO | Epoch 26 | Batch 400/1169 | Loss: 0.0206
+2026-01-12 10:35:53 | INFO | Epoch 26 | Batch 500/1169 | Loss: 0.0194
+2026-01-12 10:36:03 | INFO | Epoch 26 | Batch 600/1169 | Loss: 0.0225
+2026-01-12 10:36:12 | INFO | Epoch 26 | Batch 700/1169 | Loss: 0.0187
+2026-01-12 10:36:21 | INFO | Epoch 26 | Batch 800/1169 | Loss: 0.0222
+2026-01-12 10:36:30 | INFO | Epoch 26 | Batch 900/1169 | Loss: 0.0202
+2026-01-12 10:36:40 | INFO | Epoch 26 | Batch 1000/1169 | Loss: 0.0240
+2026-01-12 10:36:49 | INFO | Epoch 26 | Batch 1100/1169 | Loss: 0.0210
+2026-01-12 10:37:02 | INFO | Epoch 26 | Train Loss: 0.0213 | Val Loss: 0.0175
+2026-01-12 10:37:02 | INFO | Val F1: 0.4162 | Prec: 0.2892 | Rec: 0.7419 | AUC: 0.9122
+2026-01-12 10:37:02 | INFO | New best model saved (F1: 0.4162)
+2026-01-12 10:37:02 | INFO | Epoch 27 | Batch 0/1169 | Loss: 0.0221
+2026-01-12 10:37:12 | INFO | Epoch 27 | Batch 100/1169 | Loss: 0.0188
+2026-01-12 10:37:21 | INFO | Epoch 27 | Batch 200/1169 | Loss: 0.0177
+2026-01-12 10:37:31 | INFO | Epoch 27 | Batch 300/1169 | Loss: 0.0190
+2026-01-12 10:37:40 | INFO | Epoch 27 | Batch 400/1169 | Loss: 0.0263
+2026-01-12 10:37:49 | INFO | Epoch 27 | Batch 500/1169 | Loss: 0.0249
+2026-01-12 10:37:58 | INFO | Epoch 27 | Batch 600/1169 | Loss: 0.0250
+2026-01-12 10:38:06 | INFO | Epoch 27 | Batch 700/1169 | Loss: 0.0219
+2026-01-12 10:38:15 | INFO | Epoch 27 | Batch 800/1169 | Loss: 0.0225
+2026-01-12 10:38:24 | INFO | Epoch 27 | Batch 900/1169 | Loss: 0.0200
+2026-01-12 10:38:33 | INFO | Epoch 27 | Batch 1000/1169 | Loss: 0.0222
+2026-01-12 10:38:42 | INFO | Epoch 27 | Batch 1100/1169 | Loss: 0.0174
+2026-01-12 10:38:55 | INFO | Epoch 27 | Train Loss: 0.0210 | Val Loss: 0.0181
+2026-01-12 10:38:55 | INFO | Val F1: 0.4011 | Prec: 0.2738 | Rec: 0.7497 | AUC: 0.9104
+2026-01-12 10:38:55 | INFO | Epoch 28 | Batch 0/1169 | Loss: 0.0203
+2026-01-12 10:39:04 | INFO | Epoch 28 | Batch 100/1169 | Loss: 0.0190
+2026-01-12 10:39:13 | INFO | Epoch 28 | Batch 200/1169 | Loss: 0.0193
+2026-01-12 10:39:22 | INFO | Epoch 28 | Batch 300/1169 | Loss: 0.0194
+2026-01-12 10:39:31 | INFO | Epoch 28 | Batch 400/1169 | Loss: 0.0183
+2026-01-12 10:39:40 | INFO | Epoch 28 | Batch 500/1169 | Loss: 0.0193
+2026-01-12 10:39:49 | INFO | Epoch 28 | Batch 600/1169 | Loss: 0.0218
+2026-01-12 10:39:59 | INFO | Epoch 28 | Batch 700/1169 | Loss: 0.0239
+2026-01-12 10:40:08 | INFO | Epoch 28 | Batch 800/1169 | Loss: 0.0186
+2026-01-12 10:40:17 | INFO | Epoch 28 | Batch 900/1169 | Loss: 0.0204
+2026-01-12 10:40:27 | INFO | Epoch 28 | Batch 1000/1169 | Loss: 0.0177
+2026-01-12 10:40:36 | INFO | Epoch 28 | Batch 1100/1169 | Loss: 0.0188
+2026-01-12 10:40:49 | INFO | Epoch 28 | Train Loss: 0.0209 | Val Loss: 0.0194
+2026-01-12 10:40:49 | INFO | Val F1: 0.3740 | Prec: 0.2483 | Rec: 0.7571 | AUC: 0.9074
+2026-01-12 10:40:49 | INFO | Epoch 29 | Batch 0/1169 | Loss: 0.0212
+2026-01-12 10:40:58 | INFO | Epoch 29 | Batch 100/1169 | Loss: 0.0185
+2026-01-12 10:41:07 | INFO | Epoch 29 | Batch 200/1169 | Loss: 0.0195
+2026-01-12 10:41:16 | INFO | Epoch 29 | Batch 300/1169 | Loss: 0.0168
+2026-01-12 10:41:26 | INFO | Epoch 29 | Batch 400/1169 | Loss: 0.0212
+2026-01-12 10:41:35 | INFO | Epoch 29 | Batch 500/1169 | Loss: 0.0176
+2026-01-12 10:41:44 | INFO | Epoch 29 | Batch 600/1169 | Loss: 0.0219
+2026-01-12 10:41:53 | INFO | Epoch 29 | Batch 700/1169 | Loss: 0.0189
+2026-01-12 10:42:01 | INFO | Epoch 29 | Batch 800/1169 | Loss: 0.0188
+2026-01-12 10:42:11 | INFO | Epoch 29 | Batch 900/1169 | Loss: 0.0184
+2026-01-12 10:42:19 | INFO | Epoch 29 | Batch 1000/1169 | Loss: 0.0253
+2026-01-12 10:42:28 | INFO | Epoch 29 | Batch 1100/1169 | Loss: 0.0227
+2026-01-12 10:42:41 | INFO | Epoch 29 | Train Loss: 0.0208 | Val Loss: 0.0180
+2026-01-12 10:42:41 | INFO | Val F1: 0.4120 | Prec: 0.2850 | Rec: 0.7432 | AUC: 0.9101
+2026-01-12 10:42:41 | INFO | Epoch 30 | Batch 0/1169 | Loss: 0.0181
+2026-01-12 10:42:50 | INFO | Epoch 30 | Batch 100/1169 | Loss: 0.0220
+2026-01-12 10:42:59 | INFO | Epoch 30 | Batch 200/1169 | Loss: 0.0206
+2026-01-12 10:43:08 | INFO | Epoch 30 | Batch 300/1169 | Loss: 0.0179
+2026-01-12 10:43:17 | INFO | Epoch 30 | Batch 400/1169 | Loss: 0.0185
+2026-01-12 10:43:26 | INFO | Epoch 30 | Batch 500/1169 | Loss: 0.0210
+2026-01-12 10:43:35 | INFO | Epoch 30 | Batch 600/1169 | Loss: 0.0174
+2026-01-12 10:43:44 | INFO | Epoch 30 | Batch 700/1169 | Loss: 0.0170
+2026-01-12 10:43:54 | INFO | Epoch 30 | Batch 800/1169 | Loss: 0.0225
+2026-01-12 10:44:03 | INFO | Epoch 30 | Batch 900/1169 | Loss: 0.0213
+2026-01-12 10:44:13 | INFO | Epoch 30 | Batch 1000/1169 | Loss: 0.0172
+2026-01-12 10:44:22 | INFO | Epoch 30 | Batch 1100/1169 | Loss: 0.0201
+2026-01-12 10:44:35 | INFO | Epoch 30 | Train Loss: 0.0206 | Val Loss: 0.0198
+2026-01-12 10:44:35 | INFO | Val F1: 0.3416 | Prec: 0.2191 | Rec: 0.7748 | AUC: 0.9108
+2026-01-12 10:44:36 | INFO | Epoch 31 | Batch 0/1169 | Loss: 0.0169
+2026-01-12 10:44:45 | INFO | Epoch 31 | Batch 100/1169 | Loss: 0.0217
+2026-01-12 10:44:55 | INFO | Epoch 31 | Batch 200/1169 | Loss: 0.0223
+2026-01-12 10:45:05 | INFO | Epoch 31 | Batch 300/1169 | Loss: 0.0279
+2026-01-12 10:45:14 | INFO | Epoch 31 | Batch 400/1169 | Loss: 0.0211
+2026-01-12 10:45:24 | INFO | Epoch 31 | Batch 500/1169 | Loss: 0.0192
+2026-01-12 10:45:33 | INFO | Epoch 31 | Batch 600/1169 | Loss: 0.0259
+2026-01-12 10:45:42 | INFO | Epoch 31 | Batch 700/1169 | Loss: 0.0202
+2026-01-12 10:45:51 | INFO | Epoch 31 | Batch 800/1169 | Loss: 0.0188
+2026-01-12 10:46:00 | INFO | Epoch 31 | Batch 900/1169 | Loss: 0.0226
+2026-01-12 10:46:09 | INFO | Epoch 31 | Batch 1000/1169 | Loss: 0.0193
+2026-01-12 10:46:18 | INFO | Epoch 31 | Batch 1100/1169 | Loss: 0.0211
+2026-01-12 10:46:30 | INFO | Epoch 31 | Train Loss: 0.0206 | Val Loss: 0.0183
+2026-01-12 10:46:30 | INFO | Val F1: 0.3833 | Prec: 0.2570 | Rec: 0.7532 | AUC: 0.9113
+2026-01-12 10:46:31 | INFO | Epoch 32 | Batch 0/1169 | Loss: 0.0180
+2026-01-12 10:46:40 | INFO | Epoch 32 | Batch 100/1169 | Loss: 0.0204
+2026-01-12 10:46:49 | INFO | Epoch 32 | Batch 200/1169 | Loss: 0.0230
+2026-01-12 10:46:58 | INFO | Epoch 32 | Batch 300/1169 | Loss: 0.0207
+2026-01-12 10:47:07 | INFO | Epoch 32 | Batch 400/1169 | Loss: 0.0184
+2026-01-12 10:47:16 | INFO | Epoch 32 | Batch 500/1169 | Loss: 0.0221
+2026-01-12 10:47:26 | INFO | Epoch 32 | Batch 600/1169 | Loss: 0.0226
+2026-01-12 10:47:35 | INFO | Epoch 32 | Batch 700/1169 | Loss: 0.0218
+2026-01-12 10:47:44 | INFO | Epoch 32 | Batch 800/1169 | Loss: 0.0175
+2026-01-12 10:47:54 | INFO | Epoch 32 | Batch 900/1169 | Loss: 0.0198
+2026-01-12 10:48:03 | INFO | Epoch 32 | Batch 1000/1169 | Loss: 0.0214
+2026-01-12 10:48:13 | INFO | Epoch 32 | Batch 1100/1169 | Loss: 0.0188
+2026-01-12 10:48:26 | INFO | Epoch 32 | Train Loss: 0.0205 | Val Loss: 0.0186
+2026-01-12 10:48:26 | INFO | Val F1: 0.3814 | Prec: 0.2556 | Rec: 0.7510 | AUC: 0.9091
+2026-01-12 10:48:27 | INFO | Epoch 33 | Batch 0/1169 | Loss: 0.0235
+2026-01-12 10:48:36 | INFO | Epoch 33 | Batch 100/1169 | Loss: 0.0236
+2026-01-12 10:48:45 | INFO | Epoch 33 | Batch 200/1169 | Loss: 0.0216
+2026-01-12 10:48:54 | INFO | Epoch 33 | Batch 300/1169 | Loss: 0.0208
+2026-01-12 10:49:04 | INFO | Epoch 33 | Batch 400/1169 | Loss: 0.0155
+2026-01-12 10:49:13 | INFO | Epoch 33 | Batch 500/1169 | Loss: 0.0162
+2026-01-12 10:49:23 | INFO | Epoch 33 | Batch 600/1169 | Loss: 0.0143
+2026-01-12 10:49:31 | INFO | Epoch 33 | Batch 700/1169 | Loss: 0.0185
+2026-01-12 10:49:41 | INFO | Epoch 33 | Batch 800/1169 | Loss: 0.0208
+2026-01-12 10:49:50 | INFO | Epoch 33 | Batch 900/1169 | Loss: 0.0186
+2026-01-12 10:50:00 | INFO | Epoch 33 | Batch 1000/1169 | Loss: 0.0167
+2026-01-12 10:50:09 | INFO | Epoch 33 | Batch 1100/1169 | Loss: 0.0224
+2026-01-12 10:50:22 | INFO | Epoch 33 | Train Loss: 0.0197 | Val Loss: 0.0177
+2026-01-12 10:50:22 | INFO | Val F1: 0.4305 | Prec: 0.3055 | Rec: 0.7284 | AUC: 0.9080
+2026-01-12 10:50:22 | INFO | New best model saved (F1: 0.4305)
+2026-01-12 10:50:22 | INFO | Epoch 34 | Batch 0/1169 | Loss: 0.0177
+2026-01-12 10:50:31 | INFO | Epoch 34 | Batch 100/1169 | Loss: 0.0224
+2026-01-12 10:50:39 | INFO | Epoch 34 | Batch 200/1169 | Loss: 0.0204
+2026-01-12 10:50:48 | INFO | Epoch 34 | Batch 300/1169 | Loss: 0.0192
+2026-01-12 10:50:57 | INFO | Epoch 34 | Batch 400/1169 | Loss: 0.0191
+2026-01-12 10:51:06 | INFO | Epoch 34 | Batch 500/1169 | Loss: 0.0217
+2026-01-12 10:51:15 | INFO | Epoch 34 | Batch 600/1169 | Loss: 0.0186
+2026-01-12 10:51:24 | INFO | Epoch 34 | Batch 700/1169 | Loss: 0.0257
+2026-01-12 10:51:33 | INFO | Epoch 34 | Batch 800/1169 | Loss: 0.0156
+2026-01-12 10:51:43 | INFO | Epoch 34 | Batch 900/1169 | Loss: 0.0214
+2026-01-12 10:51:52 | INFO | Epoch 34 | Batch 1000/1169 | Loss: 0.0171
+2026-01-12 10:52:02 | INFO | Epoch 34 | Batch 1100/1169 | Loss: 0.0205
+2026-01-12 10:52:15 | INFO | Epoch 34 | Train Loss: 0.0196 | Val Loss: 0.0190
+2026-01-12 10:52:15 | INFO | Val F1: 0.3775 | Prec: 0.2514 | Rec: 0.7571 | AUC: 0.9100
+2026-01-12 10:52:15 | INFO | Epoch 35 | Batch 0/1169 | Loss: 0.0227
+2026-01-12 10:52:25 | INFO | Epoch 35 | Batch 100/1169 | Loss: 0.0165
+2026-01-12 10:52:35 | INFO | Epoch 35 | Batch 200/1169 | Loss: 0.0212
+2026-01-12 10:52:44 | INFO | Epoch 35 | Batch 300/1169 | Loss: 0.0161
+2026-01-12 10:52:54 | INFO | Epoch 35 | Batch 400/1169 | Loss: 0.0213
+2026-01-12 10:53:03 | INFO | Epoch 35 | Batch 500/1169 | Loss: 0.0207
+2026-01-12 10:53:12 | INFO | Epoch 35 | Batch 600/1169 | Loss: 0.0175
+2026-01-12 10:53:22 | INFO | Epoch 35 | Batch 700/1169 | Loss: 0.0241
+2026-01-12 10:53:31 | INFO | Epoch 35 | Batch 800/1169 | Loss: 0.0160
+2026-01-12 10:53:40 | INFO | Epoch 35 | Batch 900/1169 | Loss: 0.0203
+2026-01-12 10:53:49 | INFO | Epoch 35 | Batch 1000/1169 | Loss: 0.0205
+2026-01-12 10:53:58 | INFO | Epoch 35 | Batch 1100/1169 | Loss: 0.0194
+2026-01-12 10:54:11 | INFO | Epoch 35 | Train Loss: 0.0195 | Val Loss: 0.0182
+2026-01-12 10:54:11 | INFO | Val F1: 0.4024 | Prec: 0.2749 | Rec: 0.7503 | AUC: 0.9103
+2026-01-12 10:54:11 | INFO | Epoch 36 | Batch 0/1169 | Loss: 0.0163
+2026-01-12 10:54:20 | INFO | Epoch 36 | Batch 100/1169 | Loss: 0.0182
+2026-01-12 10:54:29 | INFO | Epoch 36 | Batch 200/1169 | Loss: 0.0188
+2026-01-12 10:54:38 | INFO | Epoch 36 | Batch 300/1169 | Loss: 0.0188
+2026-01-12 10:54:47 | INFO | Epoch 36 | Batch 400/1169 | Loss: 0.0198
+2026-01-12 10:54:56 | INFO | Epoch 36 | Batch 500/1169 | Loss: 0.0193
+2026-01-12 10:55:05 | INFO | Epoch 36 | Batch 600/1169 | Loss: 0.0195
+2026-01-12 10:55:14 | INFO | Epoch 36 | Batch 700/1169 | Loss: 0.0218
+2026-01-12 10:55:23 | INFO | Epoch 36 | Batch 800/1169 | Loss: 0.0229
+2026-01-12 10:55:32 | INFO | Epoch 36 | Batch 900/1169 | Loss: 0.0194
+2026-01-12 10:55:42 | INFO | Epoch 36 | Batch 1000/1169 | Loss: 0.0215
+2026-01-12 10:55:51 | INFO | Epoch 36 | Batch 1100/1169 | Loss: 0.0223
+2026-01-12 10:56:05 | INFO | Epoch 36 | Train Loss: 0.0193 | Val Loss: 0.0180
+2026-01-12 10:56:05 | INFO | Val F1: 0.4099 | Prec: 0.2821 | Rec: 0.7490 | AUC: 0.9109
+2026-01-12 10:56:05 | INFO | Epoch 37 | Batch 0/1169 | Loss: 0.0200
+2026-01-12 10:56:14 | INFO | Epoch 37 | Batch 100/1169 | Loss: 0.0205
+2026-01-12 10:56:24 | INFO | Epoch 37 | Batch 200/1169 | Loss: 0.0127
+2026-01-12 10:56:33 | INFO | Epoch 37 | Batch 300/1169 | Loss: 0.0175
+2026-01-12 10:56:43 | INFO | Epoch 37 | Batch 400/1169 | Loss: 0.0193
+2026-01-12 10:56:52 | INFO | Epoch 37 | Batch 500/1169 | Loss: 0.0192
+2026-01-12 10:57:01 | INFO | Epoch 37 | Batch 600/1169 | Loss: 0.0174
+2026-01-12 10:57:11 | INFO | Epoch 37 | Batch 700/1169 | Loss: 0.0207
+2026-01-12 10:57:20 | INFO | Epoch 37 | Batch 800/1169 | Loss: 0.0234
+2026-01-12 10:57:29 | INFO | Epoch 37 | Batch 900/1169 | Loss: 0.0206
+2026-01-12 10:57:39 | INFO | Epoch 37 | Batch 1000/1169 | Loss: 0.0170
+2026-01-12 10:57:48 | INFO | Epoch 37 | Batch 1100/1169 | Loss: 0.0197
+2026-01-12 10:58:00 | INFO | Epoch 37 | Train Loss: 0.0193 | Val Loss: 0.0176
+2026-01-12 10:58:00 | INFO | Val F1: 0.4295 | Prec: 0.3022 | Rec: 0.7423 | AUC: 0.9108
+2026-01-12 10:58:00 | INFO | Epoch 38 | Batch 0/1169 | Loss: 0.0189
+2026-01-12 10:58:10 | INFO | Epoch 38 | Batch 100/1169 | Loss: 0.0145
+2026-01-12 10:58:18 | INFO | Epoch 38 | Batch 200/1169 | Loss: 0.0217
+2026-01-12 10:58:27 | INFO | Epoch 38 | Batch 300/1169 | Loss: 0.0206
+2026-01-12 10:58:36 | INFO | Epoch 38 | Batch 400/1169 | Loss: 0.0165
+2026-01-12 10:58:44 | INFO | Epoch 38 | Batch 500/1169 | Loss: 0.0170
+2026-01-12 10:58:53 | INFO | Epoch 38 | Batch 600/1169 | Loss: 0.0250
+2026-01-12 10:59:01 | INFO | Epoch 38 | Batch 700/1169 | Loss: 0.0186
+2026-01-12 10:59:10 | INFO | Epoch 38 | Batch 800/1169 | Loss: 0.0222
+2026-01-12 10:59:19 | INFO | Epoch 38 | Batch 900/1169 | Loss: 0.0172
+2026-01-12 10:59:28 | INFO | Epoch 38 | Batch 1000/1169 | Loss: 0.0167
+2026-01-12 10:59:37 | INFO | Epoch 38 | Batch 1100/1169 | Loss: 0.0205
+2026-01-12 10:59:50 | INFO | Epoch 38 | Train Loss: 0.0191 | Val Loss: 0.0175
+2026-01-12 10:59:50 | INFO | Val F1: 0.4303 | Prec: 0.3022 | Rec: 0.7465 | AUC: 0.9122
+2026-01-12 10:59:50 | INFO | Epoch 39 | Batch 0/1169 | Loss: 0.0208
+2026-01-12 11:00:00 | INFO | Epoch 39 | Batch 100/1169 | Loss: 0.0174
+2026-01-12 11:00:10 | INFO | Epoch 39 | Batch 200/1169 | Loss: 0.0149
+2026-01-12 11:00:19 | INFO | Epoch 39 | Batch 300/1169 | Loss: 0.0157
+2026-01-12 11:00:29 | INFO | Epoch 39 | Batch 400/1169 | Loss: 0.0169
+2026-01-12 11:00:38 | INFO | Epoch 39 | Batch 500/1169 | Loss: 0.0213
+2026-01-12 11:00:48 | INFO | Epoch 39 | Batch 600/1169 | Loss: 0.0187
+2026-01-12 11:00:58 | INFO | Epoch 39 | Batch 700/1169 | Loss: 0.0168
+2026-01-12 11:01:07 | INFO | Epoch 39 | Batch 800/1169 | Loss: 0.0226
+2026-01-12 11:01:17 | INFO | Epoch 39 | Batch 900/1169 | Loss: 0.0190
+2026-01-12 11:01:26 | INFO | Epoch 39 | Batch 1000/1169 | Loss: 0.0209
+2026-01-12 11:01:35 | INFO | Epoch 39 | Batch 1100/1169 | Loss: 0.0185
+2026-01-12 11:01:48 | INFO | Epoch 39 | Train Loss: 0.0188 | Val Loss: 0.0180
+2026-01-12 11:01:48 | INFO | Val F1: 0.4235 | Prec: 0.2957 | Rec: 0.7461 | AUC: 0.9111
+2026-01-12 11:01:48 | INFO | Epoch 40 | Batch 0/1169 | Loss: 0.0200
+2026-01-12 11:01:57 | INFO | Epoch 40 | Batch 100/1169 | Loss: 0.0203
+2026-01-12 11:02:07 | INFO | Epoch 40 | Batch 200/1169 | Loss: 0.0178
+2026-01-12 11:02:17 | INFO | Epoch 40 | Batch 300/1169 | Loss: 0.0193
+2026-01-12 11:02:26 | INFO | Epoch 40 | Batch 400/1169 | Loss: 0.0206
+2026-01-12 11:02:35 | INFO | Epoch 40 | Batch 500/1169 | Loss: 0.0216
+2026-01-12 11:02:44 | INFO | Epoch 40 | Batch 600/1169 | Loss: 0.0134
+2026-01-12 11:02:53 | INFO | Epoch 40 | Batch 700/1169 | Loss: 0.0193
+2026-01-12 11:03:02 | INFO | Epoch 40 | Batch 800/1169 | Loss: 0.0186
+2026-01-12 11:03:12 | INFO | Epoch 40 | Batch 900/1169 | Loss: 0.0182
+2026-01-12 11:03:21 | INFO | Epoch 40 | Batch 1000/1169 | Loss: 0.0188
+2026-01-12 11:03:30 | INFO | Epoch 40 | Batch 1100/1169 | Loss: 0.0182
+2026-01-12 11:03:42 | INFO | Epoch 40 | Train Loss: 0.0188 | Val Loss: 0.0180
+2026-01-12 11:03:42 | INFO | Val F1: 0.4222 | Prec: 0.2948 | Rec: 0.7432 | AUC: 0.9108
+2026-01-12 11:03:43 | INFO | Epoch 41 | Batch 0/1169 | Loss: 0.0169
+2026-01-12 11:03:52 | INFO | Epoch 41 | Batch 100/1169 | Loss: 0.0190
+2026-01-12 11:04:02 | INFO | Epoch 41 | Batch 200/1169 | Loss: 0.0186
+2026-01-12 11:04:11 | INFO | Epoch 41 | Batch 300/1169 | Loss: 0.0217
+2026-01-12 11:04:20 | INFO | Epoch 41 | Batch 400/1169 | Loss: 0.0147
+2026-01-12 11:04:29 | INFO | Epoch 41 | Batch 500/1169 | Loss: 0.0207
+2026-01-12 11:04:39 | INFO | Epoch 41 | Batch 600/1169 | Loss: 0.0155
+2026-01-12 11:04:48 | INFO | Epoch 41 | Batch 700/1169 | Loss: 0.0236
+2026-01-12 11:04:58 | INFO | Epoch 41 | Batch 800/1169 | Loss: 0.0164
+2026-01-12 11:05:08 | INFO | Epoch 41 | Batch 900/1169 | Loss: 0.0165
+2026-01-12 11:05:18 | INFO | Epoch 41 | Batch 1000/1169 | Loss: 0.0209
+2026-01-12 11:05:27 | INFO | Epoch 41 | Batch 1100/1169 | Loss: 0.0180
+2026-01-12 11:05:40 | INFO | Epoch 41 | Train Loss: 0.0187 | Val Loss: 0.0174
+2026-01-12 11:05:40 | INFO | Val F1: 0.4403 | Prec: 0.3151 | Rec: 0.7310 | AUC: 0.9106
+2026-01-12 11:05:40 | INFO | New best model saved (F1: 0.4403)
+2026-01-12 11:05:40 | INFO | Epoch 42 | Batch 0/1169 | Loss: 0.0174
+2026-01-12 11:05:49 | INFO | Epoch 42 | Batch 100/1169 | Loss: 0.0178
+2026-01-12 11:05:58 | INFO | Epoch 42 | Batch 200/1169 | Loss: 0.0208
+2026-01-12 11:06:07 | INFO | Epoch 42 | Batch 300/1169 | Loss: 0.0178
+2026-01-12 11:06:16 | INFO | Epoch 42 | Batch 400/1169 | Loss: 0.0171
+2026-01-12 11:06:25 | INFO | Epoch 42 | Batch 500/1169 | Loss: 0.0258
+2026-01-12 11:06:34 | INFO | Epoch 42 | Batch 600/1169 | Loss: 0.0218
+2026-01-12 11:06:43 | INFO | Epoch 42 | Batch 700/1169 | Loss: 0.0154
+2026-01-12 11:06:52 | INFO | Epoch 42 | Batch 800/1169 | Loss: 0.0165
+2026-01-12 11:07:00 | INFO | Epoch 42 | Batch 900/1169 | Loss: 0.0170
+2026-01-12 11:07:09 | INFO | Epoch 42 | Batch 1000/1169 | Loss: 0.0174
+2026-01-12 11:07:18 | INFO | Epoch 42 | Batch 1100/1169 | Loss: 0.0191
+2026-01-12 11:07:31 | INFO | Epoch 42 | Train Loss: 0.0186 | Val Loss: 0.0183
+2026-01-12 11:07:31 | INFO | Val F1: 0.4048 | Prec: 0.2765 | Rec: 0.7558 | AUC: 0.9111
+2026-01-12 11:07:31 | INFO | Epoch 43 | Batch 0/1169 | Loss: 0.0192
+2026-01-12 11:07:40 | INFO | Epoch 43 | Batch 100/1169 | Loss: 0.0145
+2026-01-12 11:07:49 | INFO | Epoch 43 | Batch 200/1169 | Loss: 0.0214
+2026-01-12 11:07:59 | INFO | Epoch 43 | Batch 300/1169 | Loss: 0.0180
+2026-01-12 11:08:08 | INFO | Epoch 43 | Batch 400/1169 | Loss: 0.0184
+2026-01-12 11:08:17 | INFO | Epoch 43 | Batch 500/1169 | Loss: 0.0163
+2026-01-12 11:08:27 | INFO | Epoch 43 | Batch 600/1169 | Loss: 0.0180
+2026-01-12 11:08:36 | INFO | Epoch 43 | Batch 700/1169 | Loss: 0.0157
+2026-01-12 11:08:45 | INFO | Epoch 43 | Batch 800/1169 | Loss: 0.0194
+2026-01-12 11:08:55 | INFO | Epoch 43 | Batch 900/1169 | Loss: 0.0177
+2026-01-12 11:09:04 | INFO | Epoch 43 | Batch 1000/1169 | Loss: 0.0210
+2026-01-12 11:09:14 | INFO | Epoch 43 | Batch 1100/1169 | Loss: 0.0178
+2026-01-12 11:09:27 | INFO | Epoch 43 | Train Loss: 0.0185 | Val Loss: 0.0182
+2026-01-12 11:09:27 | INFO | Val F1: 0.4251 | Prec: 0.2965 | Rec: 0.7506 | AUC: 0.9110
+2026-01-12 11:09:27 | INFO | Epoch 44 | Batch 0/1169 | Loss: 0.0173
+2026-01-12 11:09:36 | INFO | Epoch 44 | Batch 100/1169 | Loss: 0.0173
+2026-01-12 11:09:45 | INFO | Epoch 44 | Batch 200/1169 | Loss: 0.0160
+2026-01-12 11:09:54 | INFO | Epoch 44 | Batch 300/1169 | Loss: 0.0142
+2026-01-12 11:10:03 | INFO | Epoch 44 | Batch 400/1169 | Loss: 0.0205
+2026-01-12 11:10:12 | INFO | Epoch 44 | Batch 500/1169 | Loss: 0.0204
+2026-01-12 11:10:21 | INFO | Epoch 44 | Batch 600/1169 | Loss: 0.0172
+2026-01-12 11:10:30 | INFO | Epoch 44 | Batch 700/1169 | Loss: 0.0194
+2026-01-12 11:10:39 | INFO | Epoch 44 | Batch 800/1169 | Loss: 0.0162
+2026-01-12 11:10:48 | INFO | Epoch 44 | Batch 900/1169 | Loss: 0.0190
+2026-01-12 11:10:56 | INFO | Epoch 44 | Batch 1000/1169 | Loss: 0.0150
+2026-01-12 11:11:05 | INFO | Epoch 44 | Batch 1100/1169 | Loss: 0.0179
+2026-01-12 11:11:17 | INFO | Epoch 44 | Train Loss: 0.0184 | Val Loss: 0.0178
+2026-01-12 11:11:17 | INFO | Val F1: 0.4330 | Prec: 0.3062 | Rec: 0.7390 | AUC: 0.9109
+2026-01-12 11:11:17 | INFO | Epoch 45 | Batch 0/1169 | Loss: 0.0211
+2026-01-12 11:11:26 | INFO | Epoch 45 | Batch 100/1169 | Loss: 0.0202
+2026-01-12 11:11:36 | INFO | Epoch 45 | Batch 200/1169 | Loss: 0.0186
+2026-01-12 11:11:45 | INFO | Epoch 45 | Batch 300/1169 | Loss: 0.0173
+2026-01-12 11:11:54 | INFO | Epoch 45 | Batch 400/1169 | Loss: 0.0142
+2026-01-12 11:12:04 | INFO | Epoch 45 | Batch 500/1169 | Loss: 0.0189
+2026-01-12 11:12:13 | INFO | Epoch 45 | Batch 600/1169 | Loss: 0.0179
+2026-01-12 11:12:23 | INFO | Epoch 45 | Batch 700/1169 | Loss: 0.0179
+2026-01-12 11:12:32 | INFO | Epoch 45 | Batch 800/1169 | Loss: 0.0183
+2026-01-12 11:12:42 | INFO | Epoch 45 | Batch 900/1169 | Loss: 0.0164
+2026-01-12 11:12:51 | INFO | Epoch 45 | Batch 1000/1169 | Loss: 0.0240
+2026-01-12 11:13:01 | INFO | Epoch 45 | Batch 1100/1169 | Loss: 0.0145
+2026-01-12 11:13:14 | INFO | Epoch 45 | Train Loss: 0.0184 | Val Loss: 0.0179
+2026-01-12 11:13:14 | INFO | Val F1: 0.4247 | Prec: 0.2972 | Rec: 0.7435 | AUC: 0.9109
+2026-01-12 11:13:14 | INFO | Epoch 46 | Batch 0/1169 | Loss: 0.0215
+2026-01-12 11:13:24 | INFO | Epoch 46 | Batch 100/1169 | Loss: 0.0201
+2026-01-12 11:13:33 | INFO | Epoch 46 | Batch 200/1169 | Loss: 0.0176
+2026-01-12 11:13:42 | INFO | Epoch 46 | Batch 300/1169 | Loss: 0.0209
+2026-01-12 11:13:51 | INFO | Epoch 46 | Batch 400/1169 | Loss: 0.0275
+2026-01-12 11:14:00 | INFO | Epoch 46 | Batch 500/1169 | Loss: 0.0161
+2026-01-12 11:14:09 | INFO | Epoch 46 | Batch 600/1169 | Loss: 0.0156
+2026-01-12 11:14:18 | INFO | Epoch 46 | Batch 700/1169 | Loss: 0.0196
+2026-01-12 11:14:27 | INFO | Epoch 46 | Batch 800/1169 | Loss: 0.0148
+2026-01-12 11:14:36 | INFO | Epoch 46 | Batch 900/1169 | Loss: 0.0158
+2026-01-12 11:14:45 | INFO | Epoch 46 | Batch 1000/1169 | Loss: 0.0174
+2026-01-12 11:14:54 | INFO | Epoch 46 | Batch 1100/1169 | Loss: 0.0179
+2026-01-12 11:15:07 | INFO | Epoch 46 | Train Loss: 0.0184 | Val Loss: 0.0183
+2026-01-12 11:15:07 | INFO | Val F1: 0.4218 | Prec: 0.2945 | Rec: 0.7426 | AUC: 0.9107
+2026-01-12 11:15:07 | INFO | Epoch 47 | Batch 0/1169 | Loss: 0.0315
+2026-01-12 11:15:16 | INFO | Epoch 47 | Batch 100/1169 | Loss: 0.0168
+2026-01-12 11:15:25 | INFO | Epoch 47 | Batch 200/1169 | Loss: 0.0164
+2026-01-12 12:34:20 | INFO | Epoch 47 | Batch 300/1169 | Loss: 0.0171
+2026-01-12 12:34:38 | INFO | Epoch 47 | Batch 400/1169 | Loss: 0.0176
+2026-01-12 12:34:58 | INFO | Epoch 47 | Batch 500/1169 | Loss: 0.0186
+2026-01-12 12:35:06 | INFO | Epoch 47 | Batch 600/1169 | Loss: 0.0137
+2026-01-12 12:35:13 | INFO | Epoch 47 | Batch 700/1169 | Loss: 0.0175
+2026-01-12 12:35:19 | INFO | Epoch 47 | Batch 800/1169 | Loss: 0.0165
+2026-01-12 12:35:24 | INFO | Epoch 47 | Batch 900/1169 | Loss: 0.0194
+2026-01-12 12:35:29 | INFO | Epoch 47 | Batch 1000/1169 | Loss: 0.0157
+2026-01-12 12:35:34 | INFO | Epoch 47 | Batch 1100/1169 | Loss: 0.0183
+2026-01-12 12:35:42 | INFO | Epoch 47 | Train Loss: 0.0185 | Val Loss: 0.0177
+2026-01-12 12:35:42 | INFO | Val F1: 0.4341 | Prec: 0.3082 | Rec: 0.7342 | AUC: 0.9101
+2026-01-12 12:35:42 | INFO | Epoch 48 | Batch 0/1169 | Loss: 0.0145
+2026-01-12 12:35:48 | INFO | Epoch 48 | Batch 100/1169 | Loss: 0.0161
+2026-01-12 12:35:53 | INFO | Epoch 48 | Batch 200/1169 | Loss: 0.0190
+2026-01-12 12:35:58 | INFO | Epoch 48 | Batch 300/1169 | Loss: 0.0159
+2026-01-12 12:36:03 | INFO | Epoch 48 | Batch 400/1169 | Loss: 0.0194
+2026-01-12 12:36:09 | INFO | Epoch 48 | Batch 500/1169 | Loss: 0.0171
+2026-01-12 12:36:14 | INFO | Epoch 48 | Batch 600/1169 | Loss: 0.0199
+2026-01-12 12:36:19 | INFO | Epoch 48 | Batch 700/1169 | Loss: 0.0176
+2026-01-12 12:36:24 | INFO | Epoch 48 | Batch 800/1169 | Loss: 0.0212
+2026-01-12 12:36:30 | INFO | Epoch 48 | Batch 900/1169 | Loss: 0.0214
+2026-01-12 12:36:35 | INFO | Epoch 48 | Batch 1000/1169 | Loss: 0.0173
+2026-01-12 12:36:40 | INFO | Epoch 48 | Batch 1100/1169 | Loss: 0.0190
+2026-01-12 12:36:48 | INFO | Epoch 48 | Train Loss: 0.0183 | Val Loss: 0.0181
+2026-01-12 12:36:48 | INFO | Val F1: 0.4211 | Prec: 0.2937 | Rec: 0.7435 | AUC: 0.9108
+2026-01-12 12:36:48 | INFO | Epoch 49 | Batch 0/1169 | Loss: 0.0192
+2026-01-12 12:36:54 | INFO | Epoch 49 | Batch 100/1169 | Loss: 0.0175
+2026-01-12 12:36:59 | INFO | Epoch 49 | Batch 200/1169 | Loss: 0.0149
+2026-01-12 12:37:04 | INFO | Epoch 49 | Batch 300/1169 | Loss: 0.0164
+2026-01-12 12:37:09 | INFO | Epoch 49 | Batch 400/1169 | Loss: 0.0206
+2026-01-12 12:37:15 | INFO | Epoch 49 | Batch 500/1169 | Loss: 0.0206
+2026-01-12 12:37:20 | INFO | Epoch 49 | Batch 600/1169 | Loss: 0.0148
+2026-01-12 12:37:25 | INFO | Epoch 49 | Batch 700/1169 | Loss: 0.0196
+2026-01-12 12:37:31 | INFO | Epoch 49 | Batch 800/1169 | Loss: 0.0165
+2026-01-12 12:37:36 | INFO | Epoch 49 | Batch 900/1169 | Loss: 0.0189
+2026-01-12 12:37:41 | INFO | Epoch 49 | Batch 1000/1169 | Loss: 0.0163
+2026-01-12 12:37:46 | INFO | Epoch 49 | Batch 1100/1169 | Loss: 0.0191
+2026-01-12 12:37:53 | INFO | Epoch 49 | Train Loss: 0.0182 | Val Loss: 0.0178
+2026-01-12 12:37:53 | INFO | Val F1: 0.4292 | Prec: 0.3012 | Rec: 0.7468 | AUC: 0.9125
+2026-01-12 12:37:53 | INFO | Epoch 50 | Batch 0/1169 | Loss: 0.0175
+2026-01-12 12:37:58 | INFO | Epoch 50 | Batch 100/1169 | Loss: 0.0174
+2026-01-12 12:38:03 | INFO | Epoch 50 | Batch 200/1169 | Loss: 0.0173
+2026-01-12 12:38:09 | INFO | Epoch 50 | Batch 300/1169 | Loss: 0.0163
+2026-01-12 12:38:14 | INFO | Epoch 50 | Batch 400/1169 | Loss: 0.0176
+2026-01-12 12:38:19 | INFO | Epoch 50 | Batch 500/1169 | Loss: 0.0161
+2026-01-12 12:38:24 | INFO | Epoch 50 | Batch 600/1169 | Loss: 0.0179
+2026-01-12 12:38:29 | INFO | Epoch 50 | Batch 700/1169 | Loss: 0.0236
+2026-01-12 12:38:34 | INFO | Epoch 50 | Batch 800/1169 | Loss: 0.0182
+2026-01-12 12:38:39 | INFO | Epoch 50 | Batch 900/1169 | Loss: 0.0165
+2026-01-12 12:38:44 | INFO | Epoch 50 | Batch 1000/1169 | Loss: 0.0182
+2026-01-12 12:38:49 | INFO | Epoch 50 | Batch 1100/1169 | Loss: 0.0165
+2026-01-12 12:38:56 | INFO | Epoch 50 | Train Loss: 0.0182 | Val Loss: 0.0177
+2026-01-12 12:38:56 | INFO | Val F1: 0.4343 | Prec: 0.3080 | Rec: 0.7361 | AUC: 0.9111
+2026-01-12 12:38:56 | INFO | Epoch 51 | Batch 0/1169 | Loss: 0.0162
+2026-01-12 12:39:01 | INFO | Epoch 51 | Batch 100/1169 | Loss: 0.0193
+2026-01-12 12:39:07 | INFO | Epoch 51 | Batch 200/1169 | Loss: 0.0158
+2026-01-12 12:39:17 | INFO | Epoch 51 | Batch 300/1169 | Loss: 0.0243
+2026-01-12 12:39:26 | INFO | Epoch 51 | Batch 400/1169 | Loss: 0.0207
+2026-01-12 12:39:36 | INFO | Epoch 51 | Batch 500/1169 | Loss: 0.0176
+2026-01-12 12:39:45 | INFO | Epoch 51 | Batch 600/1169 | Loss: 0.0324
+2026-01-12 12:39:54 | INFO | Epoch 51 | Batch 700/1169 | Loss: 0.0179
+2026-01-12 12:40:03 | INFO | Epoch 51 | Batch 800/1169 | Loss: 0.0188
+2026-01-12 12:40:13 | INFO | Epoch 51 | Batch 900/1169 | Loss: 0.0198
+2026-01-12 12:40:23 | INFO | Epoch 51 | Batch 1000/1169 | Loss: 0.0187
+2026-01-12 12:40:32 | INFO | Epoch 51 | Batch 1100/1169 | Loss: 0.0153
+2026-01-12 12:40:45 | INFO | Epoch 51 | Train Loss: 0.0181 | Val Loss: 0.0176
+2026-01-12 12:40:45 | INFO | Val F1: 0.4355 | Prec: 0.3088 | Rec: 0.7384 | AUC: 0.9110
+2026-01-12 12:40:45 | INFO | Early stopping at epoch 51
+2026-01-12 12:40:54 | INFO | ==================================================
+2026-01-12 12:40:54 | INFO | TEST RESULTS (Hybrid LSTM + Dense)
+2026-01-12 12:40:54 | INFO | ==================================================
+2026-01-12 12:40:54 | INFO | F1: 0.4524
+2026-01-12 12:40:54 | INFO | Precision: 0.3230
+2026-01-12 12:40:54 | INFO | Recall: 0.7548
+2026-01-12 12:40:54 | INFO | AUC: 0.9203

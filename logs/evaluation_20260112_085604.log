@@ -1,0 +1,18 @@
+2026-01-12 08:56:10 | INFO | === Threshold Analysis ===
+2026-01-12 08:56:10 | INFO | Thresh 0.1 | F1: 0.1483 | Precision: 0.0806 | Recall: 0.9258
+2026-01-12 08:56:10 | INFO | Thresh 0.2 | F1: 0.2252 | Precision: 0.1296 | Recall: 0.8580
+2026-01-12 08:56:10 | INFO | Thresh 0.3 | F1: 0.2901 | Precision: 0.1769 | Recall: 0.8067
+2026-01-12 08:56:10 | INFO | Thresh 0.4 | F1: 0.3581 | Precision: 0.2348 | Recall: 0.7544
+2026-01-12 08:56:10 | INFO | Thresh 0.5 | F1: 0.4483 | Precision: 0.3288 | Recall: 0.7041
+2026-01-12 08:56:10 | INFO | Thresh 0.6 | F1: 0.5673 | Precision: 0.5187 | Recall: 0.6260
+2026-01-12 08:56:10 | INFO | Thresh 0.7 | F1: 0.6338 | Precision: 0.7674 | Recall: 0.5399
+2026-01-12 08:56:10 | INFO | Thresh 0.8 | F1: 0.5770 | Precision: 0.9240 | Recall: 0.4195
+2026-01-12 08:56:10 | INFO | 
+Optimal threshold: 0.7 (F1: 0.6338)
+2026-01-12 08:56:10 | INFO | 
+=== Final Test Results ===
+2026-01-12 08:56:10 | INFO | F1: 0.6338
+2026-01-12 08:56:10 | INFO | Precision: 0.7674
+2026-01-12 08:56:10 | INFO | Recall: 0.5399
+2026-01-12 08:56:10 | INFO | AUC: 0.9138
+2026-01-12 08:56:12 | INFO | Saved: logs/pr_curve.png

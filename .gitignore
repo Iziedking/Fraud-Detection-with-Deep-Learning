@@ -1,0 +1,33 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Large data files
+data_files/*.json
+data_files/*.csv
+data_files/*.parquet
+data_files/*.npy
+data_files/*.zip
+*.zip
+
+# Model weights
+models/*.pt
+models/*.pth
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
